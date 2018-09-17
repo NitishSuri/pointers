@@ -1,0 +1,12 @@
+# pointers
+28th programs on c
+#include<stdio.h>
+int main()
+{
+
+int num,*p;
+num=100;
+p=&num;
+printf("%d",*p);
+return (0);
+}
